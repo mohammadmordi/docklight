@@ -9,4 +9,13 @@
 - Registers:
     - address: 1,2,3(hex) map to poll 1,2,3
     - values: 1 means OFF,2 means ON
-
+  ---------------------------------------------------  
+ - tern OFF and tern ON and read state 
+   - on pout1 0206000100020000
+    - on pout2 0206000200020000
+    - on pout3 0206000300020000
+    - off pout1 0206000100010000
+    - off pout2 0206000100010000
+    - off pout3 0206000100010000
+    - read pout1 0203000100010000
+    - read all pout 0203000100030000
