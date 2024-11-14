@@ -5,8 +5,7 @@
    - boadrate=9600 
    - pwity bit =none(0)
    - comport=device msnsger
- 
- 
+   ------------------------------------------------
  - register table 
    - reg add---------------reg valve-----------parameter
     - 1---------------2(coling)3(heating)---mode(sensor mode)
@@ -14,3 +13,13 @@
     - 4---------------------15_35----------setpoint(دما اسایش)
     - 5----------------------0_9----------current temperature
     - 7-------------------0(off)1(on)-------------power
+    --------------------------------------------------
+   - cooling mode=1406000100025B0E____RX=1406000100025B0E
+   - heating mode=140600010003A9CE___RX=140600010003A9CE
+   - fan speed L =140600020001EB0F_____RX=140600020001EB0F
+   - fan speed M =140600020002AB0E____RX=140600020002AB0E
+   - fan speed H =1406000200036ACE____RX=1406000200036ACE
+   - fan speed A =1406000200042B0C____RX=1406000200042B0C
+   - setpoint =14060004001E4AC6________RX=14060004001E4AC6
+   - power off = 140600070001FB0E______RX=140600070001FB0E
+   - power on = 1406000700013ACE______RX=1406000700013ACE
